@@ -1,0 +1,24 @@
+# Core NLP libraries
+spacy==3.7.2
+transformers==4.44.2
+torch>=2.0.0
+numpy>=1.26.0
+
+# Sentiment & Emotion Analysis
+textblob==0.17.1
+nltk==3.9.1
+
+# Optional - Hugging Face pipelines for emotion detection
+datasets==3.0.1
+
+# Web App / API (if you're deploying the app)
+streamlit==1.39.0
+flask==3.0.3
+
+# Utility packages
+pandas>=2.2.0
+scikit-learn>=1.5.0
+requests>=2.31.0
+
+# Download language models automatically if needed
+# (you can also install models separately in your setup script)
